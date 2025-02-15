@@ -114,7 +114,7 @@ const Profile: React.FC = () => {
 
       <div className="p-4 space-y-6">
         {/* Profile Info */}
-        <div className="bg-[#242538] rounded-xl p-6">
+        <div className="bg-[#000000] rounded-xl p-6">
           <div className="flex items-start gap-6 mb-6">
             <div className="relative flex-shrink-0">
               <img
@@ -166,7 +166,7 @@ const Profile: React.FC = () => {
         </div>
 
         {/* Menu Items */}
-        <div className="bg-[#242538] rounded-xl overflow-hidden">
+        <div className="bg-[#000000] rounded-xl overflow-hidden">
           {menuItems.map((item, index) => (
             <button
               key={index}
@@ -182,7 +182,7 @@ const Profile: React.FC = () => {
         {/* Logout Button */}
         <button
           onClick={logout}
-          className="w-full p-4 bg-[#242538] text-red-500 rounded-xl font-medium hover:bg-[#2f3049] transition-colors"
+          className="w-full p-4 bg-[#000000] text-red-500 rounded-xl font-medium hover:bg-[#2f3049] transition-colors"
         >
           Logout
         </button>
